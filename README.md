@@ -222,20 +222,20 @@ model.compile(optimizer='adam', loss='categorical_crossentropy')
 # Save model
 model.save('potato_model.keras')
 ```
-##👨‍💻 Developer Notes
+## 👨‍💻 Developer Notes
 
 This project helped me gain hands-on experience in:
--CNN-based image classification
--Model integration with Flask
--Full-stack application structure
--API design and frontend-backend communication
+- CNN-based image classification
+- Model integration with Flask
+- Full-stack application structure
+- API design and frontend-backend communication
 
 ## 📄 License
 
 This project was developed for academic purpose, it is a part of the Smart India Hackathon 2024 solution.
 
 
-##📬 Contact
+## 📬 Contact
 
 For feedback or suggestions, feel free to connect with me on LinkedIn.
 ---
