@@ -1,6 +1,10 @@
-# CropCure - Potato Leaf Disease Classifier
+# CropCure – Potato Leaf Disease Detection System 🌱
 
-A complete MERN stack application for AI-powered potato leaf disease detection, built for the Smart India Hackathon (SIH) problem statement.
+CropCure is a machine learning–based web application that detects potato leaf diseases
+using image classification. The system helps identify whether a potato leaf is
+**Healthy**, affected by **Early Blight**, or **Late Blight**.
+
+---
 
 ## 🌱 Project Overview
 
@@ -126,7 +130,7 @@ npm run build
 ```
 
 **Frontend Features:**
-- React 18 with TypeScript
+- React
 - Tailwind CSS for styling
 - React Router for navigation
 - Mobile-first responsive design
@@ -144,8 +148,6 @@ pip install -r requirements.txt
 # Run the server
 python app.py
 
-# Or with Gunicorn (production)
-gunicorn -w 4 -b 0.0.0.0:5000 app:app
 ```
 
 **Backend Features:**
@@ -220,88 +222,22 @@ model.compile(optimizer='adam', loss='categorical_crossentropy')
 # Save model
 model.save('potato_model.keras')
 ```
+##👨‍💻 Developer Notes
 
-## 🚀 Deployment
-
-### Frontend (Netlify/Vercel)
-
-```bash
-cd frontend
-npm run build
-# Deploy the 'build' folder
-```
-
-### Backend (Heroku/AWS/DigitalOcean)
-
-```bash
-cd backend
-# Add Procfile: web: gunicorn app:app
-# Deploy with your preferred platform
-```
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Model not loading**: Check file path and format
-2. **CORS errors**: Ensure backend is running on port 5000
-3. **Image upload fails**: Check file size and format
-4. **OpenAI errors**: Verify API key or use fallback solutions
-
-### Debug Mode
-
-```bash
-# Backend debug
-export FLASK_ENV=development
-python app.py
-
-# Frontend debug
-npm start
-# Check browser console for errors
-```
-
-## 📱 Mobile Usage
-
-The application is optimized for mobile devices:
-
-- Camera integration for direct image capture
-- Touch-friendly interface
-- Responsive design for all screen sizes
-- Offline-ready with service workers
-
-## 🤝 Contributing
-
-This project was developed for the Smart India Hackathon. For contributions:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+This project helped me gain hands-on experience in:
+-CNN-based image classification
+-Model integration with Flask
+-Full-stack application structure
+-API design and frontend-backend communication
 
 ## 📄 License
 
-This project is part of the Smart India Hackathon 2024 solution.
+This project was developed for academic purpose, it is a part of the Smart India Hackathon 2024 solution.
 
-## 🆘 Support
 
-For issues or questions:
+##📬 Contact
 
-1. Check the troubleshooting section
-2. Review the API documentation
-3. Check server logs for errors
-4. Verify model requirements
-
-## 🎯 SIH Problem Statement
-
-This application addresses the Smart India Hackathon problem statement focused on:
-
-- AI-powered agricultural solutions
-- Accessible technology for farmers
-- Early disease detection and prevention
-- Expert-level agricultural advice through technology
-- Reducing crop losses through technology
-
+For feedback or suggestions, feel free to connect with me on LinkedIn.
 ---
 
 **Built with ❤️ for farmers and agricultural innovation**
