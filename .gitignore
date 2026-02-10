@@ -5,7 +5,7 @@
 # Python specific
 __pycache__/
 *.pyc
-
+venv/
 # Keras Model & Temporary Files (These are the most likely slowdown culprits)
 *.h5
 *.keras
