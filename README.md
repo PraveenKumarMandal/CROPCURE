@@ -19,6 +19,13 @@ CropCure helps farmers detect potato leaf diseases using advanced AI technology.
 - 📸 **Camera Integration**: Capture images directly or upload from gallery
 - 🎨 **Farmer-Friendly UI**: Clean, intuitive design with agricultural theme
 
+### 🌐 Live Demo  
+CropCure – Potato Leaf Disease Detection System is now live! You can try it online without any setup:  
+
+[https://yourprojectname.netlify.app](https://cropcure-ai.netlify.app/) 
+
+Simply open the link in your browser, upload a potato leaf image, and get instant AI-powered disease detection along with treatment recommendations.
+
 ## 🏗️ Project Structure
 
 ```
